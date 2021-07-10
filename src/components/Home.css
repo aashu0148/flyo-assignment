@@ -1,0 +1,28 @@
+.slick-prev {
+  left: 3% !important;
+  z-index: 1;
+  transform: scale(2);
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+  transform: scale(2);
+}
+
+.carousel-image {
+  padding: 0 4px;
+  transition: 300ms;
+}
+
+.carousel-image:hover {
+  transform: scale(1.08);
+}
+
+.home_banner {
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1)
+  );
+}
